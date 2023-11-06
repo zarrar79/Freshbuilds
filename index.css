@@ -549,10 +549,10 @@ margin-left: 3vh;
 }
 .fourth{
   margin-top: 2vh;
-  margin-left: 28vh;
+  margin-left: 32vh;
   /* border: 1px red solid; */
   display: flex;
-  margin-bottom: 3vh;
+  margin-bottom: 8vh;
 }
 .fourthl{
   margin-top: 11vh;
@@ -573,7 +573,7 @@ margin-left: 3vh;
 }
 .what{
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   color: rgba(50, 44, 78, 1);
 }
 .wflex{
@@ -584,6 +584,7 @@ margin-left: 3vh;
   display: flex;
 }
 .dropdown{
+  margin-top: 1vh;
   margin-left: 5vh;
 }
 .wflex1{
@@ -601,6 +602,7 @@ hr{
   border: 1px;
 }
 .foot{
+  padding-top: 1vh;
   background-color:rgba(50, 44, 78, 1);
   height: auto;
   padding-bottom: 1vh;
