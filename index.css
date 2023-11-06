@@ -10,8 +10,25 @@ body {
   margin: 0;
   padding: 0;
 }
-.page{
-  height: auto;
+.headsec{
+  margin: 0 auto;
+  padding: auto;
+  width: 100%;
+  max-width: 1400px;
+  
+}
+.tsec{
+  margin: 0 auto;
+  padding: auto;
+  width: 100%;
+  max-width: 1400px;
+  position: relative;
+}
+.tfoot{
+  margin: 0 auto;
+  padding: auto;
+  width: 100%;
+  max-width: 1400px;
 }
 .outhead{
   /* border: 1px red solid; */
@@ -137,6 +154,7 @@ display: flex;
   margin-right: 50px;
   box-shadow: 0 6px 40px 0 rgba(0, 0, 0, 0.15);
   border-radius: 5px;
+
 }
 .daunthome{
   margin-top: 3px;
@@ -619,7 +637,7 @@ hr{
   margin-top: 1vh;
 }
 .lastflex{
-  margin-left: 100px;
+  margin-left: 90px;
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 1);
