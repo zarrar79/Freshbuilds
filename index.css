@@ -15,7 +15,6 @@ body {
   padding: auto;
   width: 100%;
   max-width: 1400px;
-  
 }
 .tsec{
   margin: 0 auto;
@@ -70,6 +69,7 @@ body {
  background-image: radial-gradient(rgba(227, 227, 227, 1),
  rgba(215, 253, 244, 1));
  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+ padding-bottom: 8vh;
 } 
 .lefth{
    top:9.5vh;
@@ -95,11 +95,13 @@ body {
   line-height: 50.4px;
   /* border: 1px red solid;*/
   padding-top: 11vh;
-  font-family: Airbnb Cereal App;
-  font-weight: 800;
+  font-family: Monsterrat;
+  font-weight: 1000;
   font-size: 42px;
-  color: 
+  color:
   rgba(62, 129, 128, 1);
+  font-family: 
+  Airbnb Cereal App;
   padding-right: 44vh;
 }
 .from{
@@ -114,23 +116,27 @@ body {
    padding-right: 40vh;
 }
 .searchf{
-  cursor: pointer;
-  margin-bottom: 6.5vh;
+  padding-top: 2.1vh;
+  padding-bottom: 2.1vh;
+  cursor:pointer;
   margin-top: 4vh;
   font-weight: 0;
   font-size: 0;
+  margin-left: 47vh;
   font-family: Airbnb Cereal App;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   color: 
   rgba(255, 255, 255, 1);
-  width: 205px;
-  height: 55px;
+  width: 192px;
+  height: 52px;
   border-radius: 5px;
   border: 1px solid rgba(232, 127, 63, 1);   
   background-color: 
   rgba(232, 127, 63, 1);
-  margin-right: 43vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .thome{
   font-family: Avenir;
@@ -140,11 +146,13 @@ body {
   background-color: rgb(241, 241, 241);
 }
 .john{
+  position: absolute;
   background-color: rgba(255, 255, 255, 1);
 display: flex;
  padding-left: 14px;
  padding-top: 7.5px;
- padding-bottom: 7.5px;  
+ padding-bottom: 7.5px;
+ padding-right: 5vh;  
   font-family: Airbnb Cereal App;
   font-weight: 400;
   font-size: 16px;
@@ -164,8 +172,8 @@ display: flex;
 }
 .buy{
   line-height: 39px;
-  text-align: center;
-  margin-top: 8vh;
+  text-align:center;
+  padding-top: 9vh;
 }
 .bbuilds{
   font-family: Airbnb Cereal App;
@@ -174,21 +182,19 @@ display: flex;
   font-size: 26px;
 }
 .tgrid{
+  position: relative;
   padding-left: 2vh;
-  margin-top: 7vh;
-  /* border: 1px red solid; */
+  margin-top: 6vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
   gap: 19px;
   height: auto;
-  width: auto;
-  position: relative;
+  width:auto;
 }
 .tleft{
   /* border: 1px red solid; */
   font-family: Airbnb Cereal App;
-
 }
 .tleft .all{
   border: 2px 
@@ -207,7 +213,8 @@ display: flex;
 }
 .dtext{
 font-weight: 400;
-font-size: 16px;
+font-size: 15.5px;
+color: rgb(29, 35, 63);
 }
 .tmid .all{
   margin-left: 1vh;
@@ -217,10 +224,15 @@ font-size: 16px;
   margin-bottom: 0;
 }
 .tright{
-  max-height: 5vh;
+  position: relative;
+}
+.timage{
   position: absolute;
-  left: 118vh;
-  bottom: 50vh;
+  bottom: 4vh;
+  right: 15vh;
+  height: 50vh;
+}
+.timage img{
 }
 .all{
   margin-top: 2.6vh;
@@ -265,7 +277,6 @@ font-size: 16px;
   /* border: 1px red solid; */
 }
 .fflex{
-  /* border: 1px red solid; */
   display: flex;
 }
 .fxr{
@@ -289,20 +300,38 @@ font-size: 16px;
   font-size :16px; 
   padding-top: 1vh;
   padding-left: 35vh;
-  padding-right: 7vh;
 }
 .fxl{
   flex-basis: 50%;
-  justify-content: right;
+  justify-content: left;
 }
-.fxl .search{
-  margin-top: 2vh;
-  padding-top: vh;
-  padding-left: 35vh;
-  padding-right: 3vh;
+.searchfxl{
+  padding-top: 2.1vh;
+  padding-bottom: 2.1vh;
+  cursor:pointer;
+  margin-top: 6vh;
+  font-weight: 0;
+  font-size: 0;
+  margin-left: 34vh;
+  font-family: Airbnb Cereal App;
+  font-weight: 600;
+  font-size: 15px;
+  color: 
+  rgba(255, 255, 255, 1);
+  width: 192px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid rgba(232, 127, 63, 1);   
+  background-color: 
+  rgba(232, 127, 63, 1);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+
 .circle{
   position: relative;
+  left: 7vh;
 }
 .round-element{
     margin-top: 16vh;
@@ -365,12 +394,11 @@ padding-bottom: 3px;
 .rleft{
   justify-content: center;
   text-align: left;
-  /* border: 1px red solid; */
   font-family: Airbnb Cereal App;
-  margin-right: 8vh;
-  padding-right: 2.5vh;
-  flex-basis: 90%;
-  margin-left: 31vh;
+  margin-right: 35px;
+  padding-right: 3vh;
+  flex-basis: 88%;
+  margin-left: 33vh;
   padding-top: 15px;
   padding-left: 20px;
   border-radius: 10px;
@@ -381,10 +409,10 @@ padding-bottom: 3px;
 }
 .rtext{
   font-family: Airbnb Cereal App;
-  font-weight: 400;
+  font-weight: 100;
   font-size: 14px;
   color:
-  rgba(50, 44, 78, 1) ;
+  rgb(101, 97, 122) ;
 }
 .rfooter{
   height: 2vh;
@@ -396,17 +424,17 @@ padding-bottom: 3px;
   font-size: 16px;
 }
 .owner{
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  margin-top: 1px;
+  font-size: 12px;
   line-height: 15.62px;
   color: rgba(50, 44, 78, 1);
-  margin-bottom: 2vh;
+  margin-bottom: 2.52vh;
 }
 .rright{
   font-family: Airbnb Cereal App;
-  flex-basis: 90%;
+  flex-basis: 88%;
   margin-right: 23vh;
-  /* border: 1px red solid; */
   border-radius: 10px;
   background-color: 
   rgba(255, 255, 255, 1);
@@ -453,7 +481,7 @@ padding-bottom: 3px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 3vh;
-  margin-top: 10px;
+  margin-top: 17px;
 }
 .completer, .neighbour, .school, .date{
   font-weight: 400;
@@ -471,7 +499,7 @@ padding-bottom: 3px;
 }
 .school{
   margin-top: 2vh;
-  margin-bottom: 4vh;
+  margin-bottom: 23px;
 }
 .col2 img{
   width: 27px;
@@ -485,6 +513,7 @@ padding-bottom: 3px;
   margin-right: 3vh;                         
 }
 .simage{
+  margin-top: 30px;
    margin-left: 16vh;
 }
 .whatever{
@@ -498,7 +527,9 @@ padding-bottom: 3px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* border: 1px red solid; */
   padding-left: 13vh;
+  padding-right: 9vh;
   gap: 29px;
+  align-items: center;
 }
 .condos{
   padding-top: 4vh;
@@ -517,7 +548,7 @@ padding-bottom: 3px;
   margin-top: 1.5vh;
   margin-left: 1.2vh;
   font-family: Airbnb Cereal App;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
   color: rgba(50, 44, 78, 1);
 }
@@ -547,16 +578,39 @@ margin-left: 3vh;
 .col1dos .condos1{
   margin-left: 3vh;  
 }
+.searchfcon{
+  padding-top: 2.5vh;
+  padding-bottom: 6.2vh;
+  cursor:pointer;
+  margin-top: 5vh;
+  margin-left: 22px;
+  font-family: Airbnb Cereal App;
+  font-weight: 600;
+  font-size: 15px;
+  color: 
+  rgba(255, 255, 255, 1);
+  width: 192px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid rgba(232, 127, 63, 1);   
+  background-color: 
+  rgba(232, 127, 63, 1);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
 .fourth{
   margin-top: 2vh;
-  margin-left: 32vh;
+  margin-left: 30vh;
   /* border: 1px red solid; */
+  margin-bottom: 10vh;
   display: flex;
-  margin-bottom: 8vh;
+  position: relative;
 }
 .fourthl{
   margin-top: 11vh;
-  /* border: 1px red solid; */
+   margin-right: 89vh;
 }
 .have{
   font-family: Airbnb Cereal App;
@@ -567,21 +621,37 @@ margin-left: 3vh;
 }
 .what1{
   margin-top: 1vh;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
-  color: rgba(50, 44, 78, 1);
+  color: rgb(50, 44, 78);
 }
 .what{
-  font-weight: 500;
+  display: inline;
+  font-weight: 600;
   font-size: 16px;
-  color: rgba(50, 44, 78, 1);
+  color: rgb(50, 44, 78);
+}
+.wflex1st{
+  padding-top: 0.5vh;
+  padding-bottom: 2vh;
+  color: 
+  rgb(50, 44, 78);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  border-bottom: 0.5px 
+  rgba(214, 214, 214, 0.8) solid;  
 }
 .wflex{
+  padding-top: 2vh;
+  padding-bottom: 1.3vh;
   color: 
-  rgba(50, 44, 78, 1);
-  font-weight: 500;
-  font-size: 16px;
+  rgb(50, 44, 78);
+  font-weight: 700;
+  font-size: 18px;
   display: flex;
+  border-bottom: 0.5px 
+  rgba(214, 214, 214, 0.8) solid;
 }
 .dropdown{
   margin-top: 1vh;
@@ -590,35 +660,30 @@ margin-left: 3vh;
 .wflex1{
   display: flex;
 }
-.imagef{
-  margin-left: 10vh;
-}
 .imagef img{
   width: 65vh;
   height: auto;
-}
-hr{
-  color: rgba(214, 214, 214, 0.8);
-  border: 1px;
+  position: absolute;
+  left: 105vh;
+  bottom: 10vh;
 }
 .foot{
-  padding-top: 1vh;
   background-color:rgba(50, 44, 78, 1);
   height: auto;
   padding-bottom: 1vh;
 }
 .centerall{
-   padding-top: 7vh;
+   padding-top: 6vh;
   text-align: center;
-  padding-bottom: 5vh;
+  padding-bottom: 4vh;
 }
 .buildplusimage{
-  /* border: 1px red solid; */  
+  /* border: 1px red solid; */
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-bottom: 3vh;
+  margin-bottom: 2.2vh;
 }
 .frbuilds{
   font-family: Avenir;
@@ -648,7 +713,7 @@ hr{
   margin-top: 3vh;
 }
 .terms, .reserved{
-  margin-left: 30px;
+  margin-left: 18px;
 }
 .lasimg{
   margin-left: 95vh;
